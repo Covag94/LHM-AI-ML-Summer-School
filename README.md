@@ -13,7 +13,7 @@ Each project explores fundamental ML concepts, data preprocessing, model evaluat
 - Preprocessed historical sales data, including holidays and economic indicators.
 - Evaluated linear regression vs. polynomial models using MAE & RMSE.
 - Explored the effect of dropping certain features on model performance.
-- Notebook: `walmart_sales_prediction.ipynb`
+- Notebook: `Linear_Regression_HW1_vagianos_final.ipynb`
 
 ### 2. Titanic Survival Prediction
 **Goal**: Train a logistic regression model from scratch to predict passenger survival using the Titanic dataset.
@@ -23,7 +23,7 @@ Each project explores fundamental ML concepts, data preprocessing, model evaluat
 - Implemented custom logistic regression with gradient descent, sigmoid, and cross-entropy loss from scratch.
 - Evaluated the model using accuracy and confusion matrix — final accuracy on test set: **~81.6%**.
 - Analysis of model weights revealed **gender** as the most influential factor in survival prediction.
-- Notebook: `titanic_survival_prediction.ipynb`
+- Notebook: `Logistic_Regression_HW2_vagianos_final.ipynb`
 
 ### 3. EMNIST Handwritten Character Classification  
 **Goal**: Build and compare neural network models to classify handwritten digits and letters from the EMNIST dataset.
@@ -32,4 +32,14 @@ Each project explores fundamental ML concepts, data preprocessing, model evaluat
 - Developed fully connected and convolutional neural networks with PyTorch, achieving up to ~86% accuracy.  
 - Explored effects of network depth, hidden layer size, and convolutional layers on performance.  
 - Included visualizations of training progress and model evaluation metrics.  
-- Notebook: `emnist_character_classification.ipynb`
+- Notebook: `Classification_NN_EMNIST_HW3_vagianos_final.ipynb`
+
+### 4. California Housing Price Regression  
+**Goal**: Predict median house prices in California using linear regression with polynomial basis functions.
+
+- Preprocessed the California housing dataset, including feature scaling and polynomial feature expansion.  
+- Compared simple linear regression with polynomial regression to capture nonlinear relationships.  
+- Evaluated models using Mean Squared Error (MSE) and R² score on training and test sets.  
+- Visualized learning curves to analyze underfitting and overfitting behaviors.  
+- Explored feature engineering techniques to improve prediction accuracy.  
+- Notebook: `Regression_NN_California_HW4_vagianos_final.ipynb`
