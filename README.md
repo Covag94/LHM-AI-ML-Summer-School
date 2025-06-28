@@ -24,3 +24,12 @@ Each project explores fundamental ML concepts, data preprocessing, model evaluat
 - Evaluated the model using accuracy and confusion matrix — final accuracy on test set: **~81.6%**.
 - Analysis of model weights revealed **gender** as the most influential factor in survival prediction.
 - Notebook: `titanic_survival_prediction.ipynb`
+
+### 3. EMNIST Handwritten Character Classification  
+**Goal**: Build and compare neural network models to classify handwritten digits and letters from the EMNIST dataset.
+
+- Implemented a manual two-layer neural network from scratch using NumPy (~71% accuracy).  
+- Developed fully connected and convolutional neural networks with PyTorch, achieving up to ~86% accuracy.  
+- Explored effects of network depth, hidden layer size, and convolutional layers on performance.  
+- Included visualizations of training progress and model evaluation metrics.  
+- Notebook: `emnist_character_classification.ipynb`
