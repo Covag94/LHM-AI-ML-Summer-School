@@ -43,3 +43,16 @@ Each project explores fundamental ML concepts, data preprocessing, model evaluat
 - Visualized learning curves to analyze underfitting and overfitting behaviors.  
 - Explored feature engineering techniques to improve prediction accuracy.  
 - Notebook: `Regression_NN_California_HW4_vagianos_final.ipynb`
+
+  ### 5. MVSA Multi-View Sentiment Analysis  
+**Goal**: Perform sentiment classification using both images and text from tweets in the MVSA dataset.
+
+- Preprocessed multi-modal data including images and corresponding tweet texts.  
+- Implemented three models for sentiment analysis:  
+  - CNN-based image-only model  
+  - RNN/LSTM-based text-only model  
+  - Combined model leveraging both visual and textual inputs.  
+- Conducted an 80:20 train-test split ensuring data alignment across modalities.  
+- Evaluated models using accuracy and confusion matrices, providing comparative performance analysis.  
+- Visualized dataset characteristics including label distribution and image size histograms.  
+- Notebook: `Multi_Modal_sentiment_analysis_HW5_final_vagianos.ipynb`
